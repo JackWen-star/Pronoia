@@ -20,8 +20,8 @@ frontend/build/
 # Backend (Python)
 .venv/
 backend/venv/
-backend/__pycache__/
-backend/.pytest_cache/
+__pycache__/
+.pytest_cache/
 *.pyc
 *.pyo
 *.pyd
@@ -62,3 +62,10 @@ tech-report/
 test-report/pronoia_run/dotenv_backup.env
 pronoia_run/dotenv_backup.env
 pronoia_run/backup/
+
+# 本地临时产物：测试脚本与输出（AGENTS.md 约定的 temp 目录）· IDE 分享包
+temp/
+.trae-html-share-packages/
+
+# 本地 agent 协作配置（不属于上游仓库）
+/AGENTS.md
