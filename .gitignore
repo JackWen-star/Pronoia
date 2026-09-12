@@ -60,4 +60,5 @@ archive/
 # Local technical reports
 tech-report/
 test-report/pronoia_run/dotenv_backup.env
+pronoia_run/dotenv_backup.env
 pronoia_run/backup/
